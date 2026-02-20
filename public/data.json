@@ -1,0 +1,24 @@
+{
+    "app": {
+        "name": "案件リスト Excel Exporter",
+        "defaultBaseFilename": "案件リスト",
+        "defaultTtlHours": 24
+    },
+    "schema": {
+        "entry": {
+            "id": "string",
+            "customerName": "string",
+            "projectName": "string",
+            "ownerName": "string",
+            "amount": "number",
+            "createdAt": "string"
+        },
+        "favoriteTemplate": {
+            "id": "string",
+            "customerName": "string",
+            "projectName": "string",
+            "ownerName": "string",
+            "updatedAt": "string"
+        }
+    }
+}
